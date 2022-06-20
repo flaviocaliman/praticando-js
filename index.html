@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práticas</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Praticando</h1>
+    </header>
+    <section>
+        <div>
+            <!--Variável Composta-->
+            <h2>Valores Carnaval Porto Família &#x1F38A</h2>
+            <p><strong>Estudante:</strong> 
+                <input type="radio" name="est" id="sest">
+                <label for="sest">Sim</label>
+                <input type="radio" name="est" id="nest" checked>
+                <label for="nest">Não</label>
+            </p>
+            <p>
+                <strong>Idade: </strong>
+                <input type="number" name="idade" id="idade" min="0">
+                <input type="button" value="Verificar" onclick="valor()">
+            </p>
+        </div>
+        <div id="val">
+            Preencha o campo acima para saber o valor!
+        </div>
+    </section>
+    <br>
+    <section>
+        <div>
+            <!--Funções!-->
+            <h2>Vamos Somar &#x2795</h2>
+            <p>
+                <strong>Número: </strong>
+                <input type="number" name="txtn1" id="txtn1">
+                <input type="number" name="txtn2" id="txtn2">
+                <input type="button" value="Verificar" onclick="soma()">
+            </p>
+        </div>
+        <div id="res1">
+            Preencha os campos acima &#x261D!
+        </div>
+    </section>
+    <footer>
+        <p>&copy; CalimanProduções</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
